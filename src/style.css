@@ -44,12 +44,13 @@ background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   #navBar{
       grid-column: 2;
       display: grid;
-      grid-template-columns: 4;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 0.5vw;
   }
 
   #apps{
         max-height: 20vh;
-        width: 7vw;
+        max-width: 7vw;
       border-radius: 50%;
       background-color: yellow;
       color: orange;
@@ -60,7 +61,7 @@ background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   }
   #journey{
     max-height: 20vh;
-    width: 7vw;
+    max-width: 7vw;
     border-radius: 50%;
     background-color: orange;
     color: yellow;
@@ -73,7 +74,7 @@ background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
 
   #resources{
     max-height: 20vh;
-    width: 7vw;
+    max-width: 7vw;
     border-radius: 50%;
     background-color: yellow;
     color: orange;
@@ -86,7 +87,7 @@ background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
 
   #pod{
     max-height: 20vh;
-    width: 7vw;
+    max-width: 7vw;
     border-radius: 50%;
     background-color: orange;
     color: yellow;
@@ -199,6 +200,29 @@ a{
       max-width: 30vw;
       grid-column: 1;
     }
+    #title{
+      grid-column: 1;
+      grid-row: 1;
+      display: grid;
+      grid-template-columns: (2, 1fr);
+  }
+  #apps h3, #journey h3, #resources h3, #pod h3{
+    grid-row: 2;
+    font-size: 2vh;
+}
+#subscriber{
+  grid-column: 3;
+  grid-row: 1;
+  font-size: 1vh;
+  background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+color: white;
+border-radius: 30%;
+max-height: 20vh;
+max-width: 10vw;
+border: 1px solid orange;
+  
+}
   }
 
 
