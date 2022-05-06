@@ -1,0 +1,190 @@
+body{
+  background-color: #eb4511;
+background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+
+    color: whitesmoke;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 0.5fr);
+}
+
+#title{
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: (3, 1fr);
+}
+
+#bubble {
+    grid-column: 1;
+    grid-row: 1;
+    width: 0; 
+    height: 0; 
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 10vh solid yellow;
+  }
+  #bubble2 {
+    grid-column: 1;
+    grid-row: 2;
+    width: 0; 
+    height: 0; 
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-top: 10vh solid orange;
+  }
+
+  #siteName{
+      grid-column: 1;
+      grid-row: 3;
+  }
+  #navBar{
+      grid-column: 2;
+      display: grid;
+      grid-template-columns: 4;
+  }
+
+  #apps{
+        height: 20vh;
+        width: 20vh;
+      border-radius: 50%;
+      background-color: yellow;
+      color: orange;
+      text-align: center;
+      grid-column: 1;
+      display: grid;
+      grid-template-rows: 3;
+  }
+  #journey{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-color: orange;
+    color: yellow;
+    text-align: center;
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 3;
+
+  }
+
+  #resources{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-color: yellow;
+    color: orange;
+    text-align: center;
+    grid-column: 3;
+    display: grid;
+    grid-template-rows: 3;
+
+  }
+
+  #pod{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-color: orange;
+    color: yellow;
+    text-align: center;
+    grid-column: 4;
+    display: grid;
+    grid-template-rows: 3;
+
+  }
+
+  #apps h3, #journey h3, #resources h3, #pod h3{
+      grid-row: 2;
+      font-size: 3vh;
+  }
+
+  #apps:hover, #journey:hover, #resources:hover, #pod:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  #apps:hover, #journey:hover, #pod:hover, #resources:hover{
+      background-color: #f5d020;
+      background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+        color: white;
+
+  }
+
+  #subscribe{
+      grid-column: 3;
+      display: grid;
+      grid-template-columns: 3;
+      grid-template-rows: 3;
+  }
+
+  #subscriber{
+      grid-column: 3;
+      grid-row: 1;
+      font-size: 4vh;
+      background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    color: white;
+    border-radius: 30%;
+    height: 25vh;
+    width: 25vh;
+    border: 1px solid orange;
+      
+  }
+
+  #subscriber:hover{
+    cursor: pointer;
+    border: 1px solid orange;
+  }
+
+  #javaContent{
+    grid-row: 2;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  #javaContent img{
+    max-height: 30vh;
+    max-width: 30vw;
+    grid-column: 2;
+  }
+
+  #javaContent #newCont{
+    font-size: 3vh;
+    color: white;
+    grid-column: 3;
+  }
+
+  li{
+    margin: 1vh;
+  }
+a{
+  color: yellow;
+}
+
+#title:hover{
+  cursor: pointer;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    top: 30vh;
+    font-size: 2vh;
+    left: 80%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.829); /* Black background with opacity */
+    color: white;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    text-align: center;
+  }
+
+
+
+
+  
+ 
