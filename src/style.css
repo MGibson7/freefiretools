@@ -185,6 +185,8 @@ a{
   }
 
 
+
+
 @media screen and (max-width:500px) {
   #javaContent{
     grid-template-columns: repeat(2, 1fr);}
@@ -204,7 +206,7 @@ a{
       grid-column: 1;
       grid-row: 1;
       display: grid;
-      grid-template-columns: (2, 1fr);
+      grid-template-columns: (1, 1fr);
   }
   #apps h3, #journey h3, #resources h3, #pod h3{
     grid-row: 2;
