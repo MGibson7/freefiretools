@@ -239,6 +239,7 @@ a{
     font-size: 2vh;
 }
 #subscriber{
+  background-color: "";
   grid-column: 3;
   grid-row: 1;
   font-size: 1vh;
@@ -248,7 +249,7 @@ color: white;
 }
 
 #apps{
-  background: "";
+  background-color: "";
 color: orange;
 text-align: center;
 grid-column: 1;
@@ -256,7 +257,7 @@ display: grid;
 grid-template-rows: 3;
 }
 #journey{
-  background: "";
+  background-color: "";
 color: yellow;
 text-align: center;
 grid-column: 2;
@@ -266,7 +267,7 @@ grid-template-rows: 3;
 }
 
 #resources{
-background: "";
+background-color: "";
 color: orange;
 text-align: center;
 grid-column: 3;
@@ -276,7 +277,7 @@ grid-template-rows: 3;
 }
 
 #pod{
-  background: "";
+  background-color: "";
 color: yellow;
 text-align: center;
 grid-column: 4;
