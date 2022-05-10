@@ -212,6 +212,20 @@ a{
 
 
 
+#slideshow{
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#mainSlide{
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+}
+
+
+
+
 
 @media screen and (max-width:500px) {
   #javaContent{
