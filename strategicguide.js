@@ -19,7 +19,25 @@ function journey(){
     let mainSlide = document.getElementById("mainSlide");
 
 
-    
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+
+    async function aging() {
+        for(const age in ages){
+            mainSlide.innerHTML = `${ages[age]}`
+            let mainSlideCont = document.getElementById("mainSlideCont")
+            mainSlideCont.innerHTML = `${agesCont[age]}`
+            await sleep(7000);
+
+            }
+        aging();
+
+          }
+    aging();
+
+
 
 
     
