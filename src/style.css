@@ -138,6 +138,7 @@ background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
 
   #subscriber:hover{
     cursor: pointer;
+    transform: scale(1.2);
     border: 1px solid orange;
   }
 
