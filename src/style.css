@@ -355,7 +355,7 @@ grid-template-rows: 3;
 }
 
 #apps:hover, #journey:hover, #resources:hover, #pod:hover{
-  transform: scale(1.1);
+  transform: scale(1);
 }
 #overlay {
   position: fixed; /* Sit on top of the page content */
