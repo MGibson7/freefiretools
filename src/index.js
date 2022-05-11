@@ -45,7 +45,6 @@ podcast.addEventListener("click", event=>{
 let subscribe = document.getElementById("subscriber");
 subscribe.addEventListener("click", event=>{
     document.getElementById("overlay").style.display = "grid";
-    document.getElementById("slideShow").style.display = "none";
 });
 
 
