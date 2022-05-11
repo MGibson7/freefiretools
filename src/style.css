@@ -355,14 +355,14 @@ grid-template-rows: 3;
 }
 
 #apps:hover, #journey:hover, #resources:hover, #pod:hover{
-  transform: scale(1);
+  transform: scale(0);
 }
 #overlay {
   position: fixed; /* Sit on top of the page content */
   display: none; /* Hidden by default */
   top: 30vh;
   font-size: 2vh;
-  left: 50%;
+  left: 20%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.829); /* Black background with opacity */
   color: white;
