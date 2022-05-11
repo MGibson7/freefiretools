@@ -223,6 +223,9 @@ a{
   grid-template-columns: repeat(2, 1fr) ;
 }
 
+#mobileHamburger{
+  display: none;
+}
 
 
 
@@ -315,6 +318,29 @@ grid-template-rows: 3;
 #slideShow img{
   max-height: 30vh;
   max-width: 30vw;
+}
+
+#mobileHamburger{
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 50%;
+  background-color: orange;
+  display: grid;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-columns: 1;
+}
+
+#line1{
+  grid-row: 1;
+  border-bottom: 1px solid yellow;
+}
+#line2{
+  grid-row: 2;
+  border-bottom: 1px solid yellow;
+}
+#line3{
+  grid-row: 3;
+  border-bottom: 1px solid yellow;
 }
 
   }
