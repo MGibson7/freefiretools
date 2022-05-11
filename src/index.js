@@ -8,6 +8,7 @@ import { podcasting } from "../dist/podcast";
 import { slideShow } from "../dist/newsletter";
 
 pageLoad();
+slideShow();
 
 document.getElementById("slideShow").style.display = "none";
 
@@ -25,7 +26,6 @@ journeys.addEventListener("click", event=>{
     journey();
     document.getElementById("overlay").style.display = "none";
     document.getElementById("slideShow").style.display = "grid";
-    slideShow();
 });
 
 let resource = document.getElementById("resources");
