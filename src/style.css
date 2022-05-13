@@ -229,6 +229,130 @@ a{
   display: none;
 }
 
+.coins *{
+  position: fixed;
+  top: 10vh;
+  padding: 0.5vw;
+  border-radius: 50%;
+  background-color: goldenrod;
+  animation: coinFalling 7s forwards;
+}
+
+.dollars *{
+  position: fixed;
+  top: 10vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: rgba(17, 140, 79, 0.829);
+  animation: coinFalling 10s forwards;
+
+}
+
+#one{
+  left: 10vw;
+}
+
+#two{
+  left: 20vw;
+}
+
+#three{
+  left: 30vw;
+}
+
+#four{
+  left: 40vw;
+}
+
+#five{
+  left: 50vw;
+}
+
+#six{
+  left: 60vw;
+}
+
+#seven{
+  left: 70vw;
+}
+
+#eight{
+  left: 80vw;
+}
+
+#nine{
+  left: 90vw;
+}
+
+#ten{
+  left: 0vw;
+}
+
+#onec{
+  left: 5vw;
+}
+
+#twoc{
+  left: 15vw;
+}
+
+#threec{
+  left: 25vw;
+}
+
+#fourc{
+  left: 35vw;
+}
+
+#fivec{
+  left: 45vw;
+}
+
+#sixc{
+  left: 55vw;
+}
+
+#sevenc{
+  left: 65vw;
+}
+
+#eightc{
+  left: 75vw;
+}
+
+#ninec{
+  left: 85vw;
+}
+
+#tenc{
+  left: 95vw;
+}
+
+
+
+@keyframes coinFalling {
+  0%{
+    top: 0vh;
+    rotate: 50deg;
+  }
+  20%{
+    rotate: -50deg;
+  }
+
+  50%{
+    rotate: 50deg;
+  }
+
+  100%{
+    top: 90vh;
+    rotate: -50deg;
+    
+  }
+  
+}
+
 
 
 
