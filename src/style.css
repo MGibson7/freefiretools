@@ -350,7 +350,7 @@ a{
   }
 
   100%{
-    top: 80vh;
+    top: 95vh;
     rotate: -50deg;
     
   }
@@ -360,19 +360,19 @@ a{
 @-webkit-keyframes coinFalling {
   0%{
     top: 0vh;
-    rotate: 50deg;
+    -webkit-transform: rotate(50deg);
   }
   20%{
-    rotate: -50deg;
+    -webkit-transform: rotate(-50deg);
   }
 
   50%{
-    rotate: 50deg;
+    -webkit-transform: rotate(50deg);
   }
 
   100%{
     top: 90vh;
-    rotate: -50deg;
+    -webkit-transform: rotate(-50deg);
     
   }
   
